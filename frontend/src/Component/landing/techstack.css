@@ -1,0 +1,115 @@
+/* .techstack-container {
+    padding: 40px 0;
+  }
+  
+  .lmshead {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .tech-logo {
+    width: 150px;
+    margin: 0 15px;
+    vertical-align: middle;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+
+  .scroll-content1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll1 20s linear infinite;
+  }
+  @keyframes scroll1 {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+   */
+
+
+
+
+   .techstack-container {
+    padding: 40px 0;
+  }
+  
+  .lmshead {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #291571;
+  }
+  
+  .scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    
+  }
+  
+  .scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .tech-logo {
+    width: 150px;
+    margin: 5px 15px;
+    font-size: xx-large;
+    vertical-align: middle;
+    
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0); 
+    }
+    100% {
+      transform: translateX(-50%); 
+    }
+  }
+  
+
+
+  .scroll-content1 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: sc 20s linear infinite;
+  }
+
+  @keyframes sc {
+    0% {
+      transform: translateX(-50%); 
+    }
+    100% {
+      transform: translateX(0%); 
+    }
+  }
